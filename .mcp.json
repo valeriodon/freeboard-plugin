@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "freeboard": {
+      "type": "http",
+      "url": "https://app.freeboard.money/mcp"
+    }
+  }
+}

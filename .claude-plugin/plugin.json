@@ -1,0 +1,15 @@
+{
+  "name": "freeboard",
+  "displayName": "Freeboard",
+  "version": "1.0.0",
+  "description": "Ask Claude about your Freeboard money dashboard: what you can safely spend today, cash forecast month by month, irregular freelance income, bank transactions, pockets, goals and sales. Changes are made only after you confirm, and every change can be undone.",
+  "author": {
+    "name": "Bytelegion OÜ",
+    "email": "support@freeboard.money",
+    "url": "https://freeboard.money"
+  },
+  "homepage": "https://freeboard.money/ai/",
+  "repository": "https://github.com/valeriodon/freeboard-plugin",
+  "license": "MIT",
+  "keywords": ["personal-finance", "budget", "cash-flow", "forecast", "freelance", "irregular-income"]
+}
