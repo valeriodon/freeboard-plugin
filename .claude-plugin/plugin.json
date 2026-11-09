@@ -9,7 +9,15 @@
     "url": "https://freeboard.money"
   },
   "homepage": "https://freeboard.money/ai/",
+  "privacyPolicyUrl": "https://freeboard.money/privacy.html",
   "repository": "https://github.com/valeriodon/freeboard-plugin",
   "license": "MIT",
-  "keywords": ["personal-finance", "budget", "cash-flow", "forecast", "freelance", "irregular-income"]
+  "keywords": [
+    "personal-finance",
+    "budget",
+    "cash-flow",
+    "forecast",
+    "freelance",
+    "irregular-income"
+  ]
 }

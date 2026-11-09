@@ -10,6 +10,12 @@ This plugin connects your assistant to your Freeboard and teaches it how to read
 - Which bank transactions still need a category?
 - Put 300 € aside for taxes.
 
+## Install
+
+- **Claude**: add Freeboard from the connectors directory, or in Claude Code run `/plugin install freeboard --marketplace valeriodon/freeboard-plugin`.
+- **ChatGPT**: add Freeboard from the apps directory.
+- **Any assistant with custom connectors**: add `https://app.freeboard.money/mcp` as a remote MCP server.
+
 ## What's inside
 
 - **The Freeboard connector**: a remote MCP server at `https://app.freeboard.money/mcp`. You sign in with your Freeboard email, username and password (OAuth), and choose to allow access on a Freeboard page.

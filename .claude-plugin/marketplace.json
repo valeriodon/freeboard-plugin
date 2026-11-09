@@ -1,0 +1,15 @@
+{
+  "name": "freeboard",
+  "description": "The Freeboard plugin: connector and skill for the Freeboard money dashboard.",
+  "owner": {
+    "name": "Bytelegion OÜ",
+    "email": "support@freeboard.money"
+  },
+  "plugins": [
+    {
+      "name": "freeboard",
+      "source": "./",
+      "description": "Ask Claude about your Freeboard money dashboard: what you can safely spend today, cash forecast month by month, irregular freelance income, bank transactions, pockets, goals and sales. Changes are made only after you confirm, and every change can be undone."
+    }
+  ]
+}
