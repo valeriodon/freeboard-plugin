@@ -3,7 +3,21 @@
   "mcpServers": {
     "freeboard": {
       "type": "streamable-http",
-      "url": "https://app.freeboard.money/mcp"
+      "url": "https://app.freeboard.money/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "registrationUrl": "https://app.freeboard.money/oauth/register",
+            "baseScopes": [
+              "bilancio"
+            ]
+          }
+        }
+      }
     }
   }
 }
