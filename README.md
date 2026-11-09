@@ -33,7 +33,7 @@ It can't move real money, make payments, delete Cash Flow items, or change bank 
 
 ## Data and privacy
 
-The assistant's requests go from the assistant's servers to `app.freeboard.money`, which answers from your dashboard only. Freeboard doesn't receive your conversations, only the tool calls. To see which tools help and which fail, Freeboard counts tool calls with PostHog on its European servers: tool name, duration, and error messages with emails, account numbers and keys removed. You can disconnect the assistant at any time in Freeboard, in Settings › AI assistants. Details in the [privacy policy](https://freeboard.money/privacy.html) and the [terms](https://freeboard.money/terms.html).
+The assistant's requests go from the assistant's servers to `app.freeboard.money`, which answers from your dashboard only. Freeboard doesn't receive your conversations, only the tool calls. To see which tools help and which fail, your dashboard sends PostHog, on its European servers, an anonymous record of each tool call: the tool's name, how long it took, whether it worked and the calling app. It never sends what the assistant asked or what the dashboard answered, your numbers, your username or your email. You can disconnect the assistant at any time in Freeboard, in Settings › AI assistants. Details in the [privacy policy](https://freeboard.money/privacy.html) and the [terms](https://freeboard.money/terms.html).
 
 ## Requirements
 
