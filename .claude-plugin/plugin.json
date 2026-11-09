@@ -10,6 +10,7 @@
   },
   "homepage": "https://freeboard.money/support/#ai-assistants",
   "privacyPolicyUrl": "https://freeboard.money/privacy.html",
+  "documentationUrl": "https://freeboard.money/support/#ai-assistants",
   "repository": "https://github.com/valeriodon/freeboard-plugin",
   "license": "MIT",
   "keywords": [
