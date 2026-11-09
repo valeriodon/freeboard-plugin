@@ -52,7 +52,7 @@
             {
               "description": "Safe to spend today",
               "prompt": "How much can I safely spend today?",
-              "tools_triggered": "panoramica",
+              "tools_triggered": "overview",
               "expected_behavior": "Reads the overview and answers with today's safe-to-spend amount from Freeboard, with one or two lines on why (cash today, what is still to come this month). Mentions when the numbers were last updated if they are old."
             },
             {
@@ -64,7 +64,7 @@
             {
               "description": "Transactions to categorize",
               "prompt": "Which bank transactions still need a category?",
-              "tools_triggered": "movimenti",
+              "tools_triggered": "transactions",
               "expected_behavior": "Lists the transactions without a Cash Flow item (date, description, amount) and suggests an item for each, without assigning anything until the user confirms."
             },
             {
@@ -76,8 +76,8 @@
             {
               "description": "Set money aside in a pocket, then undo",
               "prompt": "Put 300 € into my Taxes pocket.",
-              "tools_triggered": "tasche, tasca_sposta",
-              "expected_behavior": "Moves 300 € of free money into the existing Taxes pocket and says that the money stays on the accounts (only the dashboard count changes, no transfer happens). A follow-up \"Undo that last change\" restores the pocket to its previous amount with annulla_ultima_modifica."
+              "tools_triggered": "pockets, move_pocket_money",
+              "expected_behavior": "Moves 300 € of free money into the existing Taxes pocket and says that the money stays on the accounts (only the dashboard count changes, no transfer happens). A follow-up \"Undo that last change\" restores the pocket to its previous amount with undo_last_change."
             }
           ],
           "negative": [
