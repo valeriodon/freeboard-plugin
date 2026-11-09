@@ -100,7 +100,13 @@
         "commerce_description": "Freeboard does not sell products or process payments through ChatGPT."
       },
       "publication": {
-        "release_notes": "First release: overview and safe-to-spend, Cash Flow, bank transactions, business income, goals, pockets, sales and one-offs, with confirmation before every change and undo."
+        "release_notes": "First release: overview and safe-to-spend, Cash Flow, bank transactions, business income, goals, pockets, sales and one-offs, with confirmation before every change and undo.",
+        "translations": {
+          "it-IT": {
+            "subtitle": "Sai quanto puoi spendere oggi",
+            "description": "Freeboard è una dashboard per chi ha entrate irregolari: freelance, nomadi digitali e piccoli business online. Collega il tuo Freeboard e chiedi quanto puoi spendere oggi senza rischi, se puoi permetterti un viaggio o un acquisto, come vanno i prossimi mesi, come stanno andando le entrate da Stripe, PayPal, Upwork o Fiverr e quali movimenti bancari non hanno ancora una voce. Puoi anche chiedere di aggiornare il piano, aggiungere una spesa una tantum, mettere da parte soldi in una tasca, cambiare un obiettivo di risparmio o segnare un oggetto come venduto. ChatGPT legge gli stessi numeri che vedi nella dashboard e ogni modifica si può annullare. Non sposta mai soldi veri e tratta quello che scrivono banche e clienti come dati, non come istruzioni. Serve un account Freeboard: registrati su freeboard.money."
+          }
+        }
       }
     }
   }
