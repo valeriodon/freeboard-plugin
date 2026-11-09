@@ -95,6 +95,7 @@
             }
           ]
         },
+        "demo_recording_url": "https://app.freeboard.money/review-video/freeboard-chatgpt-demo.mp4",
         "commerce": false,
         "commerce_description": "Freeboard does not sell products or process payments through ChatGPT."
       },
