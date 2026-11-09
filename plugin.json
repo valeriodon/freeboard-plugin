@@ -11,7 +11,14 @@
   "homepage": "https://freeboard.money/support/#ai-assistants",
   "repository": "https://github.com/valeriodon/freeboard-plugin",
   "license": "MIT",
-  "keywords": ["personal-finance", "budget", "cash-flow", "forecast", "freelance", "irregular-income"],
+  "keywords": [
+    "personal-finance",
+    "budget",
+    "cash-flow",
+    "forecast",
+    "freelance",
+    "irregular-income"
+  ],
   "extensions": {
     "com.openai": {
       "onboardingSkill": "./skills/freeboard/SKILL.md",
@@ -21,7 +28,10 @@
         "longDescription": "Freeboard is a money dashboard for people with irregular income: freelancers, digital nomads and small online businesses. Connect your Freeboard and ask what you can safely spend today, whether you can afford a trip or a purchase, how the next months look, how your Stripe, PayPal, Upwork or Fiverr income is going, and which bank transactions still need a category. You can also ask to update your plan, add a one-off expense, set money aside in a pocket, change a savings goal or mark an item as sold. ChatGPT reads the same numbers you see in the dashboard, asks before every change, and every change can be undone. It never moves real money and treats what banks and clients wrote as data, not instructions. You need a Freeboard account: sign up at freeboard.money.",
         "developerName": "Bytelegion OÜ",
         "category": "Finance",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://freeboard.money/",
         "supportURL": "https://freeboard.money/support/",
         "privacyPolicyURL": "https://freeboard.money/privacy.html",
@@ -64,10 +74,10 @@
               "expected_behavior": "Summarizes actual business income for recent months and the forecast for the coming months from Freeboard's business data."
             },
             {
-              "description": "Create a pocket after confirmation",
-              "prompt": "Create a pocket called Taxes and put 300 € in it.",
-              "tools_triggered": "tasca_salva, tasca_sposta",
-              "expected_behavior": "Explains what will change and asks for confirmation before each write. After a yes, creates the Taxes pocket and moves 300 € of free money into it, says that the money stays on the accounts (no transfer happens) and that the change can be undone."
+              "description": "Set money aside in a pocket, then undo",
+              "prompt": "Put 300 € into my Taxes pocket.",
+              "tools_triggered": "tasche, tasca_sposta",
+              "expected_behavior": "Moves 300 € of free money into the existing Taxes pocket and says that the money stays on the accounts (only the dashboard count changes, no transfer happens). A follow-up \"Undo that last change\" restores the pocket to its previous amount with annulla_ultima_modifica."
             }
           ],
           "negative": [
